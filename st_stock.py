@@ -55,6 +55,7 @@ if layout=='Seprate':
         with col1:
                 st.markdown(f"<h5 style='text-align: center;'> {selected_stock[0]} </h5>",unsafe_allow_html=True) #labelling
                 st.line_chart(data_ind.Close,width =500 ,height=250)
+                st.write('The Oil and Natural Gas Corporation is an Indian oil and gas explorer and producer. It is under the ownership of Ministry of Petroleum and Natural Gas and Government of India.')
         with col2:
                 st.markdown(f"<h5 style='text-align: center;'>{selected_stock[1]}</h5>",unsafe_allow_html=True) #labelling
                 st.line_chart(data_us.Close,width =500 ,height=250,)
